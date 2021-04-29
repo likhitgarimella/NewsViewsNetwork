@@ -58,10 +58,10 @@
 			children = (
 				02F07622263AF5DC0069539D /* AppDelegate.swift */,
 				02F07624263AF5DC0069539D /* SceneDelegate.swift */,
-				02F07626263AF5DC0069539D /* ViewController.swift */,
-				02F07628263AF5DC0069539D /* Main.storyboard */,
 				02F0762B263AF5DD0069539D /* Assets.xcassets */,
 				02F0762D263AF5DD0069539D /* LaunchScreen.storyboard */,
+				02F07628263AF5DC0069539D /* Main.storyboard */,
+				02F07626263AF5DC0069539D /* ViewController.swift */,
 				02F07630263AF5DD0069539D /* Info.plist */,
 			);
 			path = NewsViewsNetwork;
@@ -289,14 +289,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77BWS8985H;
 				INFOPLIST_FILE = NewsViewsNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.likhitgarimella.NewsViewsNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +310,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77BWS8985H;
 				INFOPLIST_FILE = NewsViewsNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.likhitgarimella.NewsViewsNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
