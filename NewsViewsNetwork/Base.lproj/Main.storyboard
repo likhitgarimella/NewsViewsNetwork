@@ -259,7 +259,7 @@
             </objects>
             <point key="canvasLocation" x="3025" y="398"/>
         </scene>
-        <!--India-->
+        <!--Food-->
         <scene sceneID="NBG-wP-Tyg">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="nGy-WQ-HuP" sceneMemberID="viewController">
@@ -269,13 +269,13 @@
                         <viewLayoutGuide key="safeArea" id="kyr-gs-N0B"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="India" image="india" id="lPE-GZ-GZ8"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="food" id="lPE-GZ-GZ8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yjK-Yv-fLC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1228" y="1383"/>
         </scene>
-        <!--World-->
+        <!--Environment-->
         <scene sceneID="2ya-Qu-k3O">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="kDR-tB-adI" sceneMemberID="viewController">
@@ -285,13 +285,13 @@
                         <viewLayoutGuide key="safeArea" id="9X7-Eo-Oph"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="World" image="world" id="whz-el-TnZ"/>
+                    <tabBarItem key="tabBarItem" title="Environment" image="environment" id="whz-el-TnZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e79-UM-GTh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2128" y="1383"/>
         </scene>
-        <!--Finance-->
+        <!--Offbeat News-->
         <scene sceneID="NTZ-WM-qtj">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="64I-qa-BUx" sceneMemberID="viewController">
@@ -301,13 +301,13 @@
                         <viewLayoutGuide key="safeArea" id="Ons-Un-5Na"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Finance" image="finance" id="GvX-Al-Pmj"/>
+                    <tabBarItem key="tabBarItem" title="Offbeat News" image="news" id="GvX-Al-Pmj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDX-7q-mPv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3025" y="1383"/>
         </scene>
-        <!--Technology-->
+        <!--Top Ten-->
         <scene sceneID="fUM-Px-n0S">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="9KH-Ee-qDb" sceneMemberID="viewController">
@@ -317,13 +317,13 @@
                         <viewLayoutGuide key="safeArea" id="F5n-FM-waq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Technology" image="technology" id="2Yb-TR-d9z"/>
+                    <tabBarItem key="tabBarItem" title="Top Ten" image="ten" id="2Yb-TR-d9z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u20-e3-xKz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3928" y="1383"/>
         </scene>
-        <!--Education-->
+        <!--Stories-->
         <scene sceneID="98t-Ho-tnU">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="6xE-JT-QNn" sceneMemberID="viewController">
@@ -333,13 +333,13 @@
                         <viewLayoutGuide key="safeArea" id="kCe-Wj-2QM"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Education" image="education" id="wJk-L9-pwY"/>
+                    <tabBarItem key="tabBarItem" title="Stories" image="stories" id="wJk-L9-pwY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUE-Xd-orS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4842" y="1383"/>
         </scene>
-        <!--Automobile-->
+        <!--DIY-->
         <scene sceneID="ENn-5a-xzs">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="GqE-at-Zke" sceneMemberID="viewController">
@@ -349,13 +349,13 @@
                         <viewLayoutGuide key="safeArea" id="gvE-tH-SwT"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Automobile" image="automobile" id="V19-g4-zeF"/>
+                    <tabBarItem key="tabBarItem" title="DIY" image="diy" id="V19-g4-zeF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORS-if-aBE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5745" y="1383"/>
         </scene>
-        <!--Sports-->
+        <!--Moodfresh-->
         <scene sceneID="JeU-SM-2kZ">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ywi-Li-D10" sceneMemberID="viewController">
@@ -365,13 +365,13 @@
                         <viewLayoutGuide key="safeArea" id="eQn-fV-Pcl"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sports" image="sports" id="aqD-FT-aST"/>
+                    <tabBarItem key="tabBarItem" title="Moodfresh" image="moodfresh" id="aqD-FT-aST"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OCx-MJ-q8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6657" y="1383"/>
         </scene>
-        <!--Entertainment-->
+        <!--Hot from Oven-->
         <scene sceneID="HHO-hm-Z7W">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="f3X-9e-IsA" sceneMemberID="viewController">
@@ -381,13 +381,13 @@
                         <viewLayoutGuide key="safeArea" id="uyq-Yy-SPO"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Entertainment" image="entertainment" id="JjI-qK-q5a"/>
+                    <tabBarItem key="tabBarItem" title="Hot from Oven" image="hot" id="JjI-qK-q5a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1DZ-d8-BAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7564" y="1383"/>
         </scene>
-        <!--Home-->
+        <!--Property-->
         <scene sceneID="BIK-KD-E7T">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="zHw-Mg-Phs" sceneMemberID="viewController">
@@ -397,13 +397,13 @@
                         <viewLayoutGuide key="safeArea" id="Phb-eQ-e8C"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home" id="3Ya-tI-hmT"/>
+                    <tabBarItem key="tabBarItem" title="Property" image="property" id="3Ya-tI-hmT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYu-sb-L5P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="329" y="1383"/>
         </scene>
-        <!--Health-->
+        <!--Gaming-->
         <scene sceneID="qXz-GL-gQs">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="l7a-YV-YCb" sceneMemberID="viewController">
@@ -413,13 +413,13 @@
                         <viewLayoutGuide key="safeArea" id="Pcr-43-XWt"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Health" image="health" id="7Rc-xA-v9d"/>
+                    <tabBarItem key="tabBarItem" title="Gaming" image="gaming" id="7Rc-xA-v9d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WOc-s1-ugb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="328" y="2305"/>
         </scene>
-        <!--Lifestyle-->
+        <!--Job Alerts-->
         <scene sceneID="HMn-OK-AtC">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="qcF-Iu-VcX" sceneMemberID="viewController">
@@ -429,13 +429,13 @@
                         <viewLayoutGuide key="safeArea" id="vvV-1X-tSZ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Lifestyle" image="lifestyle" id="alX-rf-hPs"/>
+                    <tabBarItem key="tabBarItem" title="Job Alerts" image="jobs" id="alX-rf-hPs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sg3-jp-vxJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1228" y="2305"/>
         </scene>
-        <!--Travel-->
+        <!--Photo Gallery-->
         <scene sceneID="AJZ-yg-JJJ">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="N9F-tJ-u4q" sceneMemberID="viewController">
@@ -445,13 +445,13 @@
                         <viewLayoutGuide key="safeArea" id="Exu-Rb-cIq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Travel" image="travel" id="TUv-Tn-asr"/>
+                    <tabBarItem key="tabBarItem" title="Photo Gallery" image="photo-gallery" id="TUv-Tn-asr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zle-sM-CO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2128" y="2305"/>
         </scene>
-        <!--Astro-->
+        <!--Miscellany-->
         <scene sceneID="yYb-Ip-l4m">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ewh-h3-ejB" sceneMemberID="viewController">
@@ -461,13 +461,13 @@
                         <viewLayoutGuide key="safeArea" id="zmm-4W-NAj"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Astro" image="astro" id="a0F-EK-Z1J"/>
+                    <tabBarItem key="tabBarItem" title="Miscellany" image="miscellany" id="a0F-EK-Z1J"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz9-26-DcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3928" y="2314"/>
         </scene>
-        <!--Astro-->
+        <!--Videos-->
         <scene sceneID="NAl-pZ-bWg">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="48v-Xp-9Vm" sceneMemberID="viewController">
@@ -477,7 +477,7 @@
                         <viewLayoutGuide key="safeArea" id="IdG-dA-Dk8"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Astro" image="astro" id="gpj-re-ntf"/>
+                    <tabBarItem key="tabBarItem" title="Videos" image="videos" id="gpj-re-ntf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k87-yD-L9N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -487,16 +487,30 @@
     <resources>
         <image name="astro" width="24" height="24"/>
         <image name="automobile" width="24" height="24"/>
+        <image name="diy" width="24" height="24"/>
         <image name="education" width="24" height="24"/>
         <image name="entertainment" width="24" height="24"/>
+        <image name="environment" width="24" height="24"/>
         <image name="finance" width="24" height="24"/>
+        <image name="food" width="24" height="24"/>
+        <image name="gaming" width="24" height="24"/>
         <image name="health" width="24" height="24"/>
         <image name="home" width="24" height="24"/>
+        <image name="hot" width="24" height="24"/>
         <image name="india" width="24" height="24"/>
+        <image name="jobs" width="24" height="24"/>
         <image name="lifestyle" width="24" height="24"/>
+        <image name="miscellany" width="24" height="24"/>
+        <image name="moodfresh" width="24" height="24"/>
+        <image name="news" width="24" height="24"/>
+        <image name="photo-gallery" width="24" height="24"/>
+        <image name="property" width="24" height="24"/>
         <image name="sports" width="24" height="24"/>
+        <image name="stories" width="24" height="24"/>
         <image name="technology" width="24" height="24"/>
+        <image name="ten" width="24" height="24"/>
         <image name="travel" width="24" height="24"/>
+        <image name="videos" width="24" height="24"/>
         <image name="world" width="24" height="24"/>
     </resources>
 </document>
