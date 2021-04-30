@@ -11,7 +11,7 @@
         <!--India-->
         <scene sceneID="UZF-CE-wgm">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="yQr-l2-OEK" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yQr-l2-OEK" customClass="AaViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kjg-gu-wZq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
         <!--World-->
         <scene sceneID="m5H-Kg-Lwy">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="tyv-9z-384" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="tyv-9z-384" customClass="BbViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HXY-xY-wYY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--Finance-->
         <scene sceneID="UPe-FL-ZQU">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="QF7-Ub-6I9" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="QF7-Ub-6I9" customClass="CcViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JCn-fK-ZUT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
         <!--Technology-->
         <scene sceneID="NNO-FH-GWy">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Rpu-17-lRg" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Rpu-17-lRg" customClass="DdViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EQm-Jh-UJZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,7 @@
         <!--Education-->
         <scene sceneID="oJD-GQ-Zej">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="gHM-Ug-VIx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gHM-Ug-VIx" customClass="EeViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vwZ-20-ebu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,7 @@
         <!--Automobile-->
         <scene sceneID="1R6-Pk-vWC">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="j8x-Tj-sAB" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="j8x-Tj-sAB" customClass="FfViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TK6-bo-i5m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@
         <!--Sports-->
         <scene sceneID="se6-Nu-FPO">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="uen-r1-2dI" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="uen-r1-2dI" customClass="GgViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uiw-zS-3wu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,7 +123,7 @@
         <!--Entertainment-->
         <scene sceneID="inX-4r-yJ4">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Y0S-lH-tRc" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Y0S-lH-tRc" customClass="HhViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mMP-SX-Ni1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,7 +139,7 @@
         <!--Home-->
         <scene sceneID="Kjv-Gb-Mu9">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="8qr-Wu-IER" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="8qr-Wu-IER" customClass="ViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Atn-aw-hWh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,7 +198,7 @@
         <!--Health-->
         <scene sceneID="kYc-79-wvs">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="lhs-R4-hy9" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lhs-R4-hy9" customClass="IiViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GxX-Mu-hoM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -214,7 +214,7 @@
         <!--Lifestyle-->
         <scene sceneID="tko-04-qxz">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="mnt-2w-VNI" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="mnt-2w-VNI" customClass="JjViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IJV-o7-hjr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,7 +230,7 @@
         <!--Travel-->
         <scene sceneID="aex-U1-fro">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="lM4-Gr-K1k" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lM4-Gr-K1k" customClass="KkViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WEe-2n-jrt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,7 +246,7 @@
         <!--Astro-->
         <scene sceneID="k4t-B3-gPO">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="TdA-yz-Cas" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="TdA-yz-Cas" customClass="LlViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RMG-6l-m2v">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -262,7 +262,7 @@
         <!--Food-->
         <scene sceneID="NBG-wP-Tyg">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="nGy-WQ-HuP" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="nGy-WQ-HuP" customClass="NnViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V6u-Pf-jkE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -278,7 +278,7 @@
         <!--Environment-->
         <scene sceneID="2ya-Qu-k3O">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="kDR-tB-adI" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="kDR-tB-adI" customClass="OoViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Wh-XZ-yLx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -294,7 +294,7 @@
         <!--Offbeat News-->
         <scene sceneID="NTZ-WM-qtj">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="64I-qa-BUx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="64I-qa-BUx" customClass="PpViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZsY-sV-Ni9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -310,7 +310,7 @@
         <!--Top Ten-->
         <scene sceneID="fUM-Px-n0S">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="9KH-Ee-qDb" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="9KH-Ee-qDb" customClass="QqViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cJV-PP-etx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,7 +326,7 @@
         <!--Stories-->
         <scene sceneID="98t-Ho-tnU">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="6xE-JT-QNn" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="6xE-JT-QNn" customClass="RrViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WMP-kU-Fhr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -342,7 +342,7 @@
         <!--DIY-->
         <scene sceneID="ENn-5a-xzs">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="GqE-at-Zke" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="GqE-at-Zke" customClass="SsViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="frk-oy-RvY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -358,7 +358,7 @@
         <!--Moodfresh-->
         <scene sceneID="JeU-SM-2kZ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ywi-Li-D10" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ywi-Li-D10" customClass="TtViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rfb-lr-VZh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -374,7 +374,7 @@
         <!--Hot from Oven-->
         <scene sceneID="HHO-hm-Z7W">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="f3X-9e-IsA" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="f3X-9e-IsA" customClass="UuViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DfN-jI-xsa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -390,7 +390,7 @@
         <!--Property-->
         <scene sceneID="BIK-KD-E7T">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="zHw-Mg-Phs" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zHw-Mg-Phs" customClass="MmViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hBL-iR-Bez">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,7 +406,7 @@
         <!--Gaming-->
         <scene sceneID="qXz-GL-gQs">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="l7a-YV-YCb" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="l7a-YV-YCb" customClass="VvViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tNS-2k-GaR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -422,7 +422,7 @@
         <!--Job Alerts-->
         <scene sceneID="HMn-OK-AtC">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="qcF-Iu-VcX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qcF-Iu-VcX" customClass="WwViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c1Z-bl-11L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,7 +438,7 @@
         <!--Photo Gallery-->
         <scene sceneID="AJZ-yg-JJJ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="N9F-tJ-u4q" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="N9F-tJ-u4q" customClass="XxViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pt8-gA-XQX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -454,7 +454,7 @@
         <!--Miscellany-->
         <scene sceneID="yYb-Ip-l4m">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ewh-h3-ejB" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ewh-h3-ejB" customClass="ZzViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yNo-q4-DXE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -470,7 +470,7 @@
         <!--Videos-->
         <scene sceneID="NAl-pZ-bWg">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="48v-Xp-9Vm" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="48v-Xp-9Vm" customClass="YyViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FZi-Ze-kfD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
