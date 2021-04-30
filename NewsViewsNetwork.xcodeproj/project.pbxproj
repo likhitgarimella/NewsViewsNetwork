@@ -13,6 +13,32 @@
 		02F0762A263AF5DC0069539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F07628263AF5DC0069539D /* Main.storyboard */; };
 		02F0762C263AF5DD0069539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F0762B263AF5DD0069539D /* Assets.xcassets */; };
 		02F0762F263AF5DD0069539D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F0762D263AF5DD0069539D /* LaunchScreen.storyboard */; };
+		02F07637263C4FE70069539D /* AaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07636263C4FE70069539D /* AaViewController.swift */; };
+		02F07639263C545B0069539D /* BbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07638263C545B0069539D /* BbViewController.swift */; };
+		02F0763B263C549A0069539D /* CcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0763A263C549A0069539D /* CcViewController.swift */; };
+		02F0763D263C54E90069539D /* DdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0763C263C54E90069539D /* DdViewController.swift */; };
+		02F0763F263C55240069539D /* EeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0763E263C55240069539D /* EeViewController.swift */; };
+		02F07641263C554A0069539D /* FfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07640263C554A0069539D /* FfViewController.swift */; };
+		02F07643263C581E0069539D /* GgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07642263C581E0069539D /* GgViewController.swift */; };
+		02F07645263C58310069539D /* HhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07644263C58310069539D /* HhViewController.swift */; };
+		02F07647263C58430069539D /* IiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07646263C58430069539D /* IiViewController.swift */; };
+		02F07649263C58540069539D /* JjViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07648263C58530069539D /* JjViewController.swift */; };
+		02F0764B263C58640069539D /* KkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0764A263C58640069539D /* KkViewController.swift */; };
+		02F0764D263C58750069539D /* LlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0764C263C58750069539D /* LlViewController.swift */; };
+		02F0764F263C58890069539D /* MmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0764E263C58890069539D /* MmViewController.swift */; };
+		02F07651263C58980069539D /* NnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07650263C58980069539D /* NnViewController.swift */; };
+		02F07653263C5A770069539D /* OoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07652263C5A770069539D /* OoViewController.swift */; };
+		02F07655263C5A940069539D /* PpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07654263C5A940069539D /* PpViewController.swift */; };
+		02F07657263C5AA60069539D /* QqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07656263C5AA60069539D /* QqViewController.swift */; };
+		02F07659263C5AB30069539D /* RrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07658263C5AB30069539D /* RrViewController.swift */; };
+		02F0765B263C5AC80069539D /* SsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0765A263C5AC80069539D /* SsViewController.swift */; };
+		02F0765D263C5AD70069539D /* TtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0765C263C5AD70069539D /* TtViewController.swift */; };
+		02F0765F263C5AE90069539D /* UuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0765E263C5AE90069539D /* UuViewController.swift */; };
+		02F07661263C5AFF0069539D /* VvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07660263C5AFF0069539D /* VvViewController.swift */; };
+		02F07663263C5B0E0069539D /* WwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07662263C5B0E0069539D /* WwViewController.swift */; };
+		02F07665263C5B550069539D /* XxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07664263C5B550069539D /* XxViewController.swift */; };
+		02F07667263C5B630069539D /* YyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07666263C5B630069539D /* YyViewController.swift */; };
+		02F07669263C5B700069539D /* ZzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F07668263C5B700069539D /* ZzViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +50,32 @@
 		02F0762B263AF5DD0069539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02F0762E263AF5DD0069539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02F07630263AF5DD0069539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F07636263C4FE70069539D /* AaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AaViewController.swift; sourceTree = "<group>"; };
+		02F07638263C545B0069539D /* BbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BbViewController.swift; sourceTree = "<group>"; };
+		02F0763A263C549A0069539D /* CcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CcViewController.swift; sourceTree = "<group>"; };
+		02F0763C263C54E90069539D /* DdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DdViewController.swift; sourceTree = "<group>"; };
+		02F0763E263C55240069539D /* EeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EeViewController.swift; sourceTree = "<group>"; };
+		02F07640263C554A0069539D /* FfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FfViewController.swift; sourceTree = "<group>"; };
+		02F07642263C581E0069539D /* GgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GgViewController.swift; sourceTree = "<group>"; };
+		02F07644263C58310069539D /* HhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HhViewController.swift; sourceTree = "<group>"; };
+		02F07646263C58430069539D /* IiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IiViewController.swift; sourceTree = "<group>"; };
+		02F07648263C58530069539D /* JjViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JjViewController.swift; sourceTree = "<group>"; };
+		02F0764A263C58640069539D /* KkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KkViewController.swift; sourceTree = "<group>"; };
+		02F0764C263C58750069539D /* LlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlViewController.swift; sourceTree = "<group>"; };
+		02F0764E263C58890069539D /* MmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MmViewController.swift; sourceTree = "<group>"; };
+		02F07650263C58980069539D /* NnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NnViewController.swift; sourceTree = "<group>"; };
+		02F07652263C5A770069539D /* OoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoViewController.swift; sourceTree = "<group>"; };
+		02F07654263C5A940069539D /* PpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpViewController.swift; sourceTree = "<group>"; };
+		02F07656263C5AA60069539D /* QqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QqViewController.swift; sourceTree = "<group>"; };
+		02F07658263C5AB30069539D /* RrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RrViewController.swift; sourceTree = "<group>"; };
+		02F0765A263C5AC80069539D /* SsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SsViewController.swift; sourceTree = "<group>"; };
+		02F0765C263C5AD70069539D /* TtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtViewController.swift; sourceTree = "<group>"; };
+		02F0765E263C5AE90069539D /* UuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UuViewController.swift; sourceTree = "<group>"; };
+		02F07660263C5AFF0069539D /* VvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VvViewController.swift; sourceTree = "<group>"; };
+		02F07662263C5B0E0069539D /* WwViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WwViewController.swift; sourceTree = "<group>"; };
+		02F07664263C5B550069539D /* XxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XxViewController.swift; sourceTree = "<group>"; };
+		02F07666263C5B630069539D /* YyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YyViewController.swift; sourceTree = "<group>"; };
+		02F07668263C5B700069539D /* ZzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZzViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +114,32 @@
 				02F0762D263AF5DD0069539D /* LaunchScreen.storyboard */,
 				02F07628263AF5DC0069539D /* Main.storyboard */,
 				02F07626263AF5DC0069539D /* ViewController.swift */,
+				02F07636263C4FE70069539D /* AaViewController.swift */,
+				02F07638263C545B0069539D /* BbViewController.swift */,
+				02F0763A263C549A0069539D /* CcViewController.swift */,
+				02F0763C263C54E90069539D /* DdViewController.swift */,
+				02F0763E263C55240069539D /* EeViewController.swift */,
+				02F07640263C554A0069539D /* FfViewController.swift */,
+				02F07642263C581E0069539D /* GgViewController.swift */,
+				02F07644263C58310069539D /* HhViewController.swift */,
+				02F07646263C58430069539D /* IiViewController.swift */,
+				02F07648263C58530069539D /* JjViewController.swift */,
+				02F0764A263C58640069539D /* KkViewController.swift */,
+				02F0764C263C58750069539D /* LlViewController.swift */,
+				02F0764E263C58890069539D /* MmViewController.swift */,
+				02F07650263C58980069539D /* NnViewController.swift */,
+				02F07652263C5A770069539D /* OoViewController.swift */,
+				02F07654263C5A940069539D /* PpViewController.swift */,
+				02F07656263C5AA60069539D /* QqViewController.swift */,
+				02F07658263C5AB30069539D /* RrViewController.swift */,
+				02F0765A263C5AC80069539D /* SsViewController.swift */,
+				02F0765C263C5AD70069539D /* TtViewController.swift */,
+				02F0765E263C5AE90069539D /* UuViewController.swift */,
+				02F07660263C5AFF0069539D /* VvViewController.swift */,
+				02F07662263C5B0E0069539D /* WwViewController.swift */,
+				02F07664263C5B550069539D /* XxViewController.swift */,
+				02F07666263C5B630069539D /* YyViewController.swift */,
+				02F07668263C5B700069539D /* ZzViewController.swift */,
 				02F07630263AF5DD0069539D /* Info.plist */,
 			);
 			path = NewsViewsNetwork;
@@ -137,9 +215,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F0763B263C549A0069539D /* CcViewController.swift in Sources */,
+				02F0763D263C54E90069539D /* DdViewController.swift in Sources */,
+				02F07663263C5B0E0069539D /* WwViewController.swift in Sources */,
+				02F0765F263C5AE90069539D /* UuViewController.swift in Sources */,
+				02F07655263C5A940069539D /* PpViewController.swift in Sources */,
+				02F0765D263C5AD70069539D /* TtViewController.swift in Sources */,
+				02F0763F263C55240069539D /* EeViewController.swift in Sources */,
+				02F07669263C5B700069539D /* ZzViewController.swift in Sources */,
+				02F07641263C554A0069539D /* FfViewController.swift in Sources */,
+				02F07659263C5AB30069539D /* RrViewController.swift in Sources */,
+				02F07645263C58310069539D /* HhViewController.swift in Sources */,
+				02F07657263C5AA60069539D /* QqViewController.swift in Sources */,
+				02F07643263C581E0069539D /* GgViewController.swift in Sources */,
 				02F07627263AF5DC0069539D /* ViewController.swift in Sources */,
+				02F07651263C58980069539D /* NnViewController.swift in Sources */,
 				02F07623263AF5DC0069539D /* AppDelegate.swift in Sources */,
+				02F07637263C4FE70069539D /* AaViewController.swift in Sources */,
+				02F07653263C5A770069539D /* OoViewController.swift in Sources */,
+				02F07661263C5AFF0069539D /* VvViewController.swift in Sources */,
 				02F07625263AF5DC0069539D /* SceneDelegate.swift in Sources */,
+				02F0764F263C58890069539D /* MmViewController.swift in Sources */,
+				02F0764D263C58750069539D /* LlViewController.swift in Sources */,
+				02F0764B263C58640069539D /* KkViewController.swift in Sources */,
+				02F07647263C58430069539D /* IiViewController.swift in Sources */,
+				02F07639263C545B0069539D /* BbViewController.swift in Sources */,
+				02F0765B263C5AC80069539D /* SsViewController.swift in Sources */,
+				02F07649263C58540069539D /* JjViewController.swift in Sources */,
+				02F07667263C5B630069539D /* YyViewController.swift in Sources */,
+				02F07665263C5B550069539D /* XxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
