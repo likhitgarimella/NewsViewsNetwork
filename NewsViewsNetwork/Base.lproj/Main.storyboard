@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lg5-vK-2SD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lg5-vK-2SD">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -163,32 +163,32 @@
                     </tabBar>
                     <connections>
                         <segue destination="8qr-Wu-IER" kind="relationship" relationship="viewControllers" id="GRZ-aT-ZrQ"/>
-                        <segue destination="yQr-l2-OEK" kind="relationship" relationship="viewControllers" id="yJX-fw-Rkd"/>
-                        <segue destination="tyv-9z-384" kind="relationship" relationship="viewControllers" id="hpA-Ix-Lge"/>
-                        <segue destination="QF7-Ub-6I9" kind="relationship" relationship="viewControllers" id="RW8-Nb-fOZ"/>
-                        <segue destination="Rpu-17-lRg" kind="relationship" relationship="viewControllers" id="Cvy-nu-Iue"/>
-                        <segue destination="gHM-Ug-VIx" kind="relationship" relationship="viewControllers" id="KVh-38-pWW"/>
-                        <segue destination="j8x-Tj-sAB" kind="relationship" relationship="viewControllers" id="APL-HE-9MK"/>
-                        <segue destination="uen-r1-2dI" kind="relationship" relationship="viewControllers" id="pfc-7u-WF1"/>
-                        <segue destination="Y0S-lH-tRc" kind="relationship" relationship="viewControllers" id="3uB-u4-5rm"/>
-                        <segue destination="lhs-R4-hy9" kind="relationship" relationship="viewControllers" id="6ce-lB-m8y"/>
-                        <segue destination="mnt-2w-VNI" kind="relationship" relationship="viewControllers" id="FFq-uX-BX1"/>
-                        <segue destination="lM4-Gr-K1k" kind="relationship" relationship="viewControllers" id="7wy-Mm-zMl"/>
-                        <segue destination="TdA-yz-Cas" kind="relationship" relationship="viewControllers" id="9Qf-Xo-JcS"/>
-                        <segue destination="zHw-Mg-Phs" kind="relationship" relationship="viewControllers" id="Kgh-2F-VEO"/>
-                        <segue destination="nGy-WQ-HuP" kind="relationship" relationship="viewControllers" id="uqc-HV-Fa9"/>
-                        <segue destination="kDR-tB-adI" kind="relationship" relationship="viewControllers" id="2Bh-7s-scv"/>
-                        <segue destination="64I-qa-BUx" kind="relationship" relationship="viewControllers" id="Vyu-cP-fXR"/>
-                        <segue destination="9KH-Ee-qDb" kind="relationship" relationship="viewControllers" id="ood-Aj-DPF"/>
-                        <segue destination="6xE-JT-QNn" kind="relationship" relationship="viewControllers" id="6fw-Vr-z2e"/>
-                        <segue destination="GqE-at-Zke" kind="relationship" relationship="viewControllers" id="ydN-KY-OO4"/>
-                        <segue destination="ywi-Li-D10" kind="relationship" relationship="viewControllers" id="mFb-qP-paT"/>
-                        <segue destination="f3X-9e-IsA" kind="relationship" relationship="viewControllers" id="Mex-6v-BmT"/>
-                        <segue destination="l7a-YV-YCb" kind="relationship" relationship="viewControllers" id="C1C-FE-UvV"/>
-                        <segue destination="qcF-Iu-VcX" kind="relationship" relationship="viewControllers" id="HkB-Sq-FVw"/>
-                        <segue destination="N9F-tJ-u4q" kind="relationship" relationship="viewControllers" id="DD0-3R-JVg"/>
-                        <segue destination="48v-Xp-9Vm" kind="relationship" relationship="viewControllers" id="MyI-fJ-kZH"/>
-                        <segue destination="ewh-h3-ejB" kind="relationship" relationship="viewControllers" id="tJL-G1-0NY"/>
+                        <segue destination="lhs-R4-hy9" kind="relationship" relationship="viewControllers" id="WP3-ml-ZZ9"/>
+                        <segue destination="gHM-Ug-VIx" kind="relationship" relationship="viewControllers" id="5zQ-uH-Qij"/>
+                        <segue destination="Rpu-17-lRg" kind="relationship" relationship="viewControllers" id="XL5-mX-EGZ"/>
+                        <segue destination="QF7-Ub-6I9" kind="relationship" relationship="viewControllers" id="F0I-EZ-Ikj"/>
+                        <segue destination="j8x-Tj-sAB" kind="relationship" relationship="viewControllers" id="oR4-9B-PnW"/>
+                        <segue destination="uen-r1-2dI" kind="relationship" relationship="viewControllers" id="6LY-qY-Cgf"/>
+                        <segue destination="Y0S-lH-tRc" kind="relationship" relationship="viewControllers" id="8wb-y7-vzI"/>
+                        <segue destination="mnt-2w-VNI" kind="relationship" relationship="viewControllers" id="3Kh-xi-uQ9"/>
+                        <segue destination="lM4-Gr-K1k" kind="relationship" relationship="viewControllers" id="rGu-0C-uUl"/>
+                        <segue destination="TdA-yz-Cas" kind="relationship" relationship="viewControllers" id="cDh-lh-LTg"/>
+                        <segue destination="zHw-Mg-Phs" kind="relationship" relationship="viewControllers" id="sDS-6M-aO9"/>
+                        <segue destination="nGy-WQ-HuP" kind="relationship" relationship="viewControllers" id="Cao-7w-INg"/>
+                        <segue destination="kDR-tB-adI" kind="relationship" relationship="viewControllers" id="d9n-Dg-gO0"/>
+                        <segue destination="tyv-9z-384" kind="relationship" relationship="viewControllers" id="oeh-uM-23Q"/>
+                        <segue destination="yQr-l2-OEK" kind="relationship" relationship="viewControllers" id="hdK-Ki-2AF"/>
+                        <segue destination="64I-qa-BUx" kind="relationship" relationship="viewControllers" id="OkX-DT-wtY"/>
+                        <segue destination="9KH-Ee-qDb" kind="relationship" relationship="viewControllers" id="VGr-co-LJt"/>
+                        <segue destination="6xE-JT-QNn" kind="relationship" relationship="viewControllers" id="9EZ-xu-S05"/>
+                        <segue destination="GqE-at-Zke" kind="relationship" relationship="viewControllers" id="8nA-sM-b4j"/>
+                        <segue destination="ywi-Li-D10" kind="relationship" relationship="viewControllers" id="gc2-gv-pa5"/>
+                        <segue destination="f3X-9e-IsA" kind="relationship" relationship="viewControllers" id="w9E-Ip-86C"/>
+                        <segue destination="l7a-YV-YCb" kind="relationship" relationship="viewControllers" id="mNw-c7-h4v"/>
+                        <segue destination="qcF-Iu-VcX" kind="relationship" relationship="viewControllers" id="a33-OJ-9VB"/>
+                        <segue destination="N9F-tJ-u4q" kind="relationship" relationship="viewControllers" id="rIl-ez-tbJ"/>
+                        <segue destination="48v-Xp-9Vm" kind="relationship" relationship="viewControllers" id="bVz-Bf-mXm"/>
+                        <segue destination="ewh-h3-ejB" kind="relationship" relationship="viewControllers" id="bgZ-c8-wGc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pvA-aJ-wfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -371,7 +371,7 @@
             </objects>
             <point key="canvasLocation" x="6657" y="1383"/>
         </scene>
-        <!--Hot from Oven-->
+        <!--Hot From Oven-->
         <scene sceneID="HHO-hm-Z7W">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="f3X-9e-IsA" customClass="UuViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
@@ -381,7 +381,7 @@
                         <viewLayoutGuide key="safeArea" id="uyq-Yy-SPO"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hot from Oven" image="hot" id="JjI-qK-q5a"/>
+                    <tabBarItem key="tabBarItem" title="Hot From Oven" image="hot" id="JjI-qK-q5a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1DZ-d8-BAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -419,7 +419,7 @@
             </objects>
             <point key="canvasLocation" x="328" y="2305"/>
         </scene>
-        <!--Job Alerts-->
+        <!--Jobs-->
         <scene sceneID="HMn-OK-AtC">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="qcF-Iu-VcX" customClass="WwViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
@@ -429,7 +429,7 @@
                         <viewLayoutGuide key="safeArea" id="vvV-1X-tSZ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Job Alerts" image="jobs" id="alX-rf-hPs"/>
+                    <tabBarItem key="tabBarItem" title="Jobs" image="jobs" id="alX-rf-hPs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sg3-jp-vxJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
