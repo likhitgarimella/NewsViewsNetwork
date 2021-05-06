@@ -19,6 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="India" image="india" id="AVA-8q-8MH"/>
+                    <navigationItem key="navigationItem" id="JBU-pB-17g"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K8B-CL-gsf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -35,6 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="World" image="world" id="jWE-Pn-D5a"/>
+                    <navigationItem key="navigationItem" id="d4h-vx-WBj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSz-jg-bu2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -204,6 +206,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8qr-Wu-IER" kind="show" id="Rap-7q-fnU"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tjr-xs-ltb">
                                 <rect key="frame" x="20" y="90" width="394" height="0.6666666666666714"/>
@@ -224,6 +229,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="yQr-l2-OEK" kind="show" id="jyO-zk-yfd"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUq-ki-6Ui">
                                 <rect key="frame" x="20" y="136.66666666666666" width="394" height="0.33333333333334281"/>
@@ -244,6 +252,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="tyv-9z-384" kind="show" id="ayc-yz-nRC"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCp-YL-4my">
                                 <rect key="frame" x="20" y="183" width="394" height="0.66666666666665719"/>
@@ -264,6 +275,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="64I-qa-BUx" kind="show" id="X5q-9e-eTJ"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUC-yu-IYZ">
                                 <rect key="frame" x="20" y="229.66666666666666" width="394" height="0.33333333333334281"/>
@@ -284,6 +298,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9KH-Ee-qDb" kind="show" id="Qp8-3K-yUi"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tWO-Ea-ohq">
                                 <rect key="frame" x="20" y="276" width="394" height="0.66666666666668561"/>
@@ -304,6 +321,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="6xE-JT-QNn" kind="show" id="7Re-JB-DLR"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clp-GD-Bur">
                                 <rect key="frame" x="20" y="322.66666666666669" width="394" height="0.33333333333331439"/>
@@ -324,6 +344,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="f3X-9e-IsA" kind="show" id="aBT-gK-RUA"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vc-3g-4iB">
                                 <rect key="frame" x="20" y="369" width="394" height="0.66666666666668561"/>
@@ -344,6 +367,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="N9F-tJ-u4q" kind="show" id="dDL-TF-uYL"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmL-vu-Pir">
                                 <rect key="frame" x="20" y="415.66666666666669" width="394" height="0.33333333333331439"/>
@@ -364,6 +390,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="48v-Xp-9Vm" kind="show" id="sIA-hs-TuP"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBS-9r-wG5">
                                 <rect key="frame" x="20" y="462" width="394" height="0.66666666666668561"/>
@@ -384,6 +413,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ewh-h3-ejB" kind="show" id="BUC-2C-gKB"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4XU-iS-abE">
                                 <rect key="frame" x="20" y="508.66666666666669" width="394" height="0.33333333333331439"/>
@@ -475,6 +507,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="k1L-ue-3u6"/>
+                    <navigationItem key="navigationItem" id="uUm-Dk-oxv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2XU-o1-rCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -624,6 +657,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Offbeat News" image="news" id="GvX-Al-Pmj"/>
+                    <navigationItem key="navigationItem" id="HJ4-g8-DHa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDX-7q-mPv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -640,6 +674,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Top Ten" image="ten" id="2Yb-TR-d9z"/>
+                    <navigationItem key="navigationItem" id="10e-d6-gIy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u20-e3-xKz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -656,6 +691,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Stories" image="stories" id="wJk-L9-pwY"/>
+                    <navigationItem key="navigationItem" id="4ui-Zg-qBu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUE-Xd-orS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -704,6 +740,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Hot From Oven" image="hot" id="JjI-qK-q5a"/>
+                    <navigationItem key="navigationItem" id="CdL-HO-Mqy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1DZ-d8-BAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -768,6 +805,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Photo Gallery" image="photo-gallery" id="TUv-Tn-asr"/>
+                    <navigationItem key="navigationItem" id="FDx-oE-PGZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zle-sM-CO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -784,6 +822,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Miscellany" image="miscellany" id="a0F-EK-Z1J"/>
+                    <navigationItem key="navigationItem" id="U9M-eD-U7Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz9-26-DcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -800,6 +839,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Videos" image="videos" id="gpj-re-ntf"/>
+                    <navigationItem key="navigationItem" id="Ctn-84-5d4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k87-yD-L9N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
