@@ -360,8 +360,157 @@
                     <view key="view" contentMode="scaleToFill" id="qdH-1h-3po">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtu-ir-G3g">
+                                <rect key="frame" x="0.0" y="45" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Nt3-6K-KNE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Sports">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uen-r1-2dI" kind="show" id="qM2-BB-0lx"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ek-J6-IQ1">
+                                <rect key="frame" x="20" y="90" width="394" height="0.6666666666666714"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="Nby-4B-4ae"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ssl-ag-KMG">
+                                <rect key="frame" x="0.0" y="91.666666666666671" width="414" height="44.000000000000014"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ze0-hO-uCr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Entertainment">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Y0S-lH-tRc" kind="show" id="DPo-Ia-Dce"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFh-8r-kbb">
+                                <rect key="frame" x="20" y="136.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="duy-1p-1aT"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBZ-rp-ZIs">
+                                <rect key="frame" x="0.0" y="138" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="39u-a7-zsz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Astrology">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TdA-yz-Cas" kind="show" id="dvh-Vf-ti2"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YR7-Ds-fQd">
+                                <rect key="frame" x="20" y="183" width="394" height="0.66666666666665719"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="IzO-Nb-cRl"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOf-bQ-WdF">
+                                <rect key="frame" x="0.0" y="184.66666666666666" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Rfn-hG-hdU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Environment">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kDR-tB-adI" kind="show" id="WOK-ov-v9z"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMk-uk-mZg">
+                                <rect key="frame" x="20" y="229.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="vfj-Ge-HwS"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7h-Ou-srU">
+                                <rect key="frame" x="0.0" y="231" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Rg4-4E-c4N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Moodfresh">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ywi-Li-D10" kind="show" id="grc-y7-ABK"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4YG-4u-YNS">
+                                <rect key="frame" x="20" y="276" width="394" height="0.66666666666668561"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="9W5-Og-2Ym"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="RJe-W3-bnQ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kMk-uk-mZg" firstAttribute="top" secondItem="AOf-bQ-WdF" secondAttribute="bottom" constant="1" id="3sP-6x-Ev2"/>
+                            <constraint firstItem="wBZ-rp-ZIs" firstAttribute="leading" secondItem="RJe-W3-bnQ" secondAttribute="leading" id="4kv-0x-mCx"/>
+                            <constraint firstItem="Xtu-ir-G3g" firstAttribute="top" secondItem="RJe-W3-bnQ" secondAttribute="top" constant="1" id="5J6-fT-YI2"/>
+                            <constraint firstItem="4YG-4u-YNS" firstAttribute="leading" secondItem="qdH-1h-3po" secondAttribute="leading" constant="20" id="6H5-ng-WNA"/>
+                            <constraint firstItem="R7h-Ou-srU" firstAttribute="trailing" secondItem="RJe-W3-bnQ" secondAttribute="trailing" id="C25-HU-Sai"/>
+                            <constraint firstItem="Xtu-ir-G3g" firstAttribute="trailing" secondItem="RJe-W3-bnQ" secondAttribute="trailing" id="CCr-hR-Kmb"/>
+                            <constraint firstAttribute="trailing" secondItem="kMk-uk-mZg" secondAttribute="trailing" id="Dc0-YO-wDI"/>
+                            <constraint firstItem="R7h-Ou-srU" firstAttribute="top" secondItem="kMk-uk-mZg" secondAttribute="bottom" constant="1" id="DdH-nF-p1V"/>
+                            <constraint firstItem="R7h-Ou-srU" firstAttribute="leading" secondItem="RJe-W3-bnQ" secondAttribute="leading" id="El9-VQ-lAL"/>
+                            <constraint firstItem="Xtu-ir-G3g" firstAttribute="leading" secondItem="RJe-W3-bnQ" secondAttribute="leading" id="FYY-2J-Xhz"/>
+                            <constraint firstItem="9Ek-J6-IQ1" firstAttribute="top" secondItem="Xtu-ir-G3g" secondAttribute="bottom" constant="1" id="FzD-Dw-BS7"/>
+                            <constraint firstAttribute="trailing" secondItem="YR7-Ds-fQd" secondAttribute="trailing" id="Lmp-8d-sti"/>
+                            <constraint firstItem="kMk-uk-mZg" firstAttribute="leading" secondItem="qdH-1h-3po" secondAttribute="leading" constant="20" id="Mi3-yW-54H"/>
+                            <constraint firstAttribute="trailing" secondItem="9Ek-J6-IQ1" secondAttribute="trailing" id="Pf5-Kk-JwV"/>
+                            <constraint firstItem="4YG-4u-YNS" firstAttribute="top" secondItem="R7h-Ou-srU" secondAttribute="bottom" constant="1" id="Q3T-9R-tAf"/>
+                            <constraint firstItem="Ssl-ag-KMG" firstAttribute="leading" secondItem="RJe-W3-bnQ" secondAttribute="leading" id="QzH-lg-xDJ"/>
+                            <constraint firstItem="AOf-bQ-WdF" firstAttribute="top" secondItem="YR7-Ds-fQd" secondAttribute="bottom" constant="1" id="VVh-II-VgI"/>
+                            <constraint firstItem="wBZ-rp-ZIs" firstAttribute="trailing" secondItem="RJe-W3-bnQ" secondAttribute="trailing" id="WXG-qV-eFx"/>
+                            <constraint firstItem="wBZ-rp-ZIs" firstAttribute="top" secondItem="iFh-8r-kbb" secondAttribute="bottom" constant="1" id="WsP-oW-6yv"/>
+                            <constraint firstAttribute="trailing" secondItem="iFh-8r-kbb" secondAttribute="trailing" id="ZH4-BV-wC9"/>
+                            <constraint firstItem="YR7-Ds-fQd" firstAttribute="leading" secondItem="qdH-1h-3po" secondAttribute="leading" constant="20" id="dUP-oH-DxD"/>
+                            <constraint firstItem="AOf-bQ-WdF" firstAttribute="trailing" secondItem="RJe-W3-bnQ" secondAttribute="trailing" id="jgB-4H-TWE"/>
+                            <constraint firstAttribute="trailing" secondItem="4YG-4u-YNS" secondAttribute="trailing" id="mte-OU-ADz"/>
+                            <constraint firstItem="AOf-bQ-WdF" firstAttribute="leading" secondItem="RJe-W3-bnQ" secondAttribute="leading" id="n0P-Ol-CjK"/>
+                            <constraint firstItem="Ssl-ag-KMG" firstAttribute="top" secondItem="9Ek-J6-IQ1" secondAttribute="bottom" constant="1" id="nWA-JV-a6y"/>
+                            <constraint firstItem="Ssl-ag-KMG" firstAttribute="trailing" secondItem="RJe-W3-bnQ" secondAttribute="trailing" id="nzB-D3-ALa"/>
+                            <constraint firstItem="iFh-8r-kbb" firstAttribute="top" secondItem="Ssl-ag-KMG" secondAttribute="bottom" constant="1" id="sD8-6W-Ui6"/>
+                            <constraint firstItem="iFh-8r-kbb" firstAttribute="leading" secondItem="qdH-1h-3po" secondAttribute="leading" constant="20" id="srJ-AT-uzd"/>
+                            <constraint firstItem="9Ek-J6-IQ1" firstAttribute="leading" secondItem="qdH-1h-3po" secondAttribute="leading" constant="20" id="v7h-9r-qAJ"/>
+                            <constraint firstItem="YR7-Ds-fQd" firstAttribute="top" secondItem="wBZ-rp-ZIs" secondAttribute="bottom" constant="1" id="xtv-i4-qSw"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Leisure" id="ntH-F4-MJx"/>
                 </viewController>
@@ -380,6 +529,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sports" image="sports" id="W86-gW-IZa"/>
+                    <navigationItem key="navigationItem" id="4lr-c9-YLB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUC-cS-j1c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -396,6 +546,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Entertainment" image="entertainment" id="fce-KT-dse"/>
+                    <navigationItem key="navigationItem" id="ysL-hx-G5a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wko-v6-h93" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -976,6 +1127,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Astrology" image="astro" id="k4l-SV-Pct"/>
+                    <navigationItem key="navigationItem" id="JpN-Ew-Ymq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BvQ-Uh-RgR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1009,6 +1161,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Environment" image="environment" id="whz-el-TnZ"/>
+                    <navigationItem key="navigationItem" id="vyv-Cd-L3d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e79-UM-GTh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1093,6 +1246,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="MoodFresh" image="moodfresh" id="aqD-FT-aST"/>
+                    <navigationItem key="navigationItem" id="nyY-hz-Kpr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OCx-MJ-q8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
