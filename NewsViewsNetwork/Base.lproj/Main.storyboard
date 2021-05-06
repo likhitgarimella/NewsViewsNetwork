@@ -541,8 +541,157 @@
                     <view key="view" contentMode="scaleToFill" id="SsJ-ms-hQf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="va2-QU-T6Y">
+                                <rect key="frame" x="0.0" y="45" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="IFO-hr-tiu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Health">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lhs-R4-hy9" kind="show" id="c1K-gY-3Zm"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rox-2i-USf">
+                                <rect key="frame" x="20" y="90" width="394" height="0.6666666666666714"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="Jhd-eh-EMW"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWl-4e-rll">
+                                <rect key="frame" x="0.0" y="91.666666666666671" width="414" height="44.000000000000014"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="W0q-wL-MpQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Lifestyle">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mnt-2w-VNI" kind="show" id="eS1-Ib-QbP"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu0-D2-USD">
+                                <rect key="frame" x="20" y="136.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="cb3-bu-psT"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fd6-9R-KPu">
+                                <rect key="frame" x="0.0" y="138" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Qvt-9i-3Ke"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Travel">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lM4-Gr-K1k" kind="show" id="niX-Tp-3ES"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQ2-u4-Ooa">
+                                <rect key="frame" x="20" y="183" width="394" height="0.66666666666665719"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="dqC-gl-rir"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sye-nD-d3O">
+                                <rect key="frame" x="0.0" y="184.66666666666666" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vdH-Sz-Zcz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Food">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nGy-WQ-HuP" kind="show" id="13g-Kv-cJN"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4FB-Mf-og4">
+                                <rect key="frame" x="20" y="229.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="SHB-Lh-bh9"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAy-Vj-u9E">
+                                <rect key="frame" x="0.0" y="231" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Efk-Iv-q3e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      DIY">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GqE-at-Zke" kind="show" id="KgS-Yj-fXy"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NY2-sv-Bug">
+                                <rect key="frame" x="20" y="276" width="394" height="0.66666666666668561"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="t6e-iW-12y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="yCr-2w-V9L"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fd6-9R-KPu" firstAttribute="top" secondItem="tu0-D2-USD" secondAttribute="bottom" constant="1" id="0lK-Cz-GG9"/>
+                            <constraint firstItem="rox-2i-USf" firstAttribute="top" secondItem="va2-QU-T6Y" secondAttribute="bottom" constant="1" id="1EG-bA-Ufi"/>
+                            <constraint firstItem="RWl-4e-rll" firstAttribute="leading" secondItem="yCr-2w-V9L" secondAttribute="leading" id="2YJ-si-qfC"/>
+                            <constraint firstItem="4FB-Mf-og4" firstAttribute="leading" secondItem="SsJ-ms-hQf" secondAttribute="leading" constant="20" id="8Qu-bI-Ejk"/>
+                            <constraint firstItem="RWl-4e-rll" firstAttribute="top" secondItem="rox-2i-USf" secondAttribute="bottom" constant="1" id="Asf-no-nM6"/>
+                            <constraint firstItem="tu0-D2-USD" firstAttribute="top" secondItem="RWl-4e-rll" secondAttribute="bottom" constant="1" id="BiS-lB-gcE"/>
+                            <constraint firstAttribute="trailing" secondItem="bQ2-u4-Ooa" secondAttribute="trailing" id="EGf-Rs-aBf"/>
+                            <constraint firstItem="bQ2-u4-Ooa" firstAttribute="top" secondItem="Fd6-9R-KPu" secondAttribute="bottom" constant="1" id="F7y-Oq-DsO"/>
+                            <constraint firstItem="4FB-Mf-og4" firstAttribute="top" secondItem="Sye-nD-d3O" secondAttribute="bottom" constant="1" id="Gbe-Bb-Uqy"/>
+                            <constraint firstAttribute="trailing" secondItem="rox-2i-USf" secondAttribute="trailing" id="JVH-F6-XXF"/>
+                            <constraint firstAttribute="trailing" secondItem="NY2-sv-Bug" secondAttribute="trailing" id="NUo-2O-hBx"/>
+                            <constraint firstItem="NY2-sv-Bug" firstAttribute="leading" secondItem="SsJ-ms-hQf" secondAttribute="leading" constant="20" id="X5V-gR-mwN"/>
+                            <constraint firstItem="Sye-nD-d3O" firstAttribute="leading" secondItem="yCr-2w-V9L" secondAttribute="leading" id="Xax-DV-EWB"/>
+                            <constraint firstItem="vAy-Vj-u9E" firstAttribute="trailing" secondItem="yCr-2w-V9L" secondAttribute="trailing" id="bD3-Cv-sbZ"/>
+                            <constraint firstItem="va2-QU-T6Y" firstAttribute="trailing" secondItem="yCr-2w-V9L" secondAttribute="trailing" id="blB-hw-NEQ"/>
+                            <constraint firstItem="rox-2i-USf" firstAttribute="leading" secondItem="SsJ-ms-hQf" secondAttribute="leading" constant="20" id="dir-4E-XJx"/>
+                            <constraint firstItem="Sye-nD-d3O" firstAttribute="trailing" secondItem="yCr-2w-V9L" secondAttribute="trailing" id="foT-HA-HLR"/>
+                            <constraint firstItem="bQ2-u4-Ooa" firstAttribute="leading" secondItem="SsJ-ms-hQf" secondAttribute="leading" constant="20" id="fxL-Bn-QwM"/>
+                            <constraint firstAttribute="trailing" secondItem="tu0-D2-USD" secondAttribute="trailing" id="gkZ-i7-4ZP"/>
+                            <constraint firstItem="vAy-Vj-u9E" firstAttribute="top" secondItem="4FB-Mf-og4" secondAttribute="bottom" constant="1" id="h01-m9-HVW"/>
+                            <constraint firstItem="NY2-sv-Bug" firstAttribute="top" secondItem="vAy-Vj-u9E" secondAttribute="bottom" constant="1" id="hYt-VK-jix"/>
+                            <constraint firstAttribute="trailing" secondItem="4FB-Mf-og4" secondAttribute="trailing" id="hxc-Sl-UA5"/>
+                            <constraint firstItem="Fd6-9R-KPu" firstAttribute="trailing" secondItem="yCr-2w-V9L" secondAttribute="trailing" id="i4y-vW-VTV"/>
+                            <constraint firstItem="va2-QU-T6Y" firstAttribute="leading" secondItem="yCr-2w-V9L" secondAttribute="leading" id="no2-DF-4R6"/>
+                            <constraint firstItem="Fd6-9R-KPu" firstAttribute="leading" secondItem="yCr-2w-V9L" secondAttribute="leading" id="o7S-nK-RUS"/>
+                            <constraint firstItem="vAy-Vj-u9E" firstAttribute="leading" secondItem="yCr-2w-V9L" secondAttribute="leading" id="oRM-YG-0D8"/>
+                            <constraint firstItem="Sye-nD-d3O" firstAttribute="top" secondItem="bQ2-u4-Ooa" secondAttribute="bottom" constant="1" id="tx1-zr-TBm"/>
+                            <constraint firstItem="RWl-4e-rll" firstAttribute="trailing" secondItem="yCr-2w-V9L" secondAttribute="trailing" id="uv8-DP-PKN"/>
+                            <constraint firstItem="tu0-D2-USD" firstAttribute="leading" secondItem="SsJ-ms-hQf" secondAttribute="leading" constant="20" id="xcF-Kj-G4m"/>
+                            <constraint firstItem="va2-QU-T6Y" firstAttribute="top" secondItem="yCr-2w-V9L" secondAttribute="top" constant="1" id="zpN-A7-hTc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Wellness" id="KYg-L4-gSp"/>
                 </viewController>
@@ -561,6 +710,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Health" image="health" id="O9B-Pm-5EL"/>
+                    <navigationItem key="navigationItem" id="aFD-id-FoH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKd-V2-eJu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -577,6 +727,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lifestyle" image="lifestyle" id="DXQ-kd-wYS"/>
+                    <navigationItem key="navigationItem" id="uS3-gy-b1G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I5v-5u-wPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -593,6 +744,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Travel" image="travel" id="dw5-KW-6Hr"/>
+                    <navigationItem key="navigationItem" id="XHr-dQ-5R9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IcS-vh-ADy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -625,6 +777,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Food" image="food" id="lPE-GZ-GZ8"/>
+                    <navigationItem key="navigationItem" id="hjN-0a-2ks"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yjK-Yv-fLC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -708,6 +861,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="DIY" image="diy" id="V19-g4-zeF"/>
+                    <navigationItem key="navigationItem" id="QpW-wm-VZD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORS-if-aBE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
