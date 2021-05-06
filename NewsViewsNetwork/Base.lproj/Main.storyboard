@@ -81,8 +81,99 @@
                     <view key="view" contentMode="scaleToFill" id="W2E-na-67F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sF8-hX-Gd2">
+                                <rect key="frame" x="0.0" y="45" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0ew-Uw-kU1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Technology">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rpu-17-lRg" kind="show" id="gKO-bu-dzM"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gmd-tG-ahr">
+                                <rect key="frame" x="20" y="90" width="394" height="0.6666666666666714"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="HLS-1d-zCW"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYg-py-QPb">
+                                <rect key="frame" x="0.0" y="91.666666666666671" width="414" height="44.000000000000014"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="YPc-eU-iRZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Automobile">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="j8x-Tj-sAB" kind="show" id="BWV-j6-Yky"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nrF-Yf-eD1">
+                                <rect key="frame" x="20" y="136.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="wZf-qY-GTo"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuD-nh-q35">
+                                <rect key="frame" x="0.0" y="138" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="YGj-qr-6kX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Gaming">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="l7a-YV-YCb" kind="show" id="xG3-PL-ZMR"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p01-uP-HBK">
+                                <rect key="frame" x="20" y="183" width="394" height="0.66666666666665719"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="kZV-uP-j9H"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dDz-Cl-sI6"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Gmd-tG-ahr" secondAttribute="trailing" id="1qV-Xe-6nP"/>
+                            <constraint firstItem="sF8-hX-Gd2" firstAttribute="top" secondItem="dDz-Cl-sI6" secondAttribute="top" constant="1" id="5sc-mj-T5V"/>
+                            <constraint firstItem="CuD-nh-q35" firstAttribute="trailing" secondItem="dDz-Cl-sI6" secondAttribute="trailing" id="6o5-aC-3fg"/>
+                            <constraint firstItem="p01-uP-HBK" firstAttribute="leading" secondItem="W2E-na-67F" secondAttribute="leading" constant="20" id="BRK-PD-0M6"/>
+                            <constraint firstItem="Gmd-tG-ahr" firstAttribute="leading" secondItem="W2E-na-67F" secondAttribute="leading" constant="20" id="BTP-bY-GAz"/>
+                            <constraint firstItem="sF8-hX-Gd2" firstAttribute="leading" secondItem="dDz-Cl-sI6" secondAttribute="leading" id="BpK-R2-Wxg"/>
+                            <constraint firstItem="sF8-hX-Gd2" firstAttribute="trailing" secondItem="dDz-Cl-sI6" secondAttribute="trailing" id="BuR-Q6-uo5"/>
+                            <constraint firstItem="CuD-nh-q35" firstAttribute="top" secondItem="nrF-Yf-eD1" secondAttribute="bottom" constant="1" id="JZy-Eu-ow0"/>
+                            <constraint firstItem="p01-uP-HBK" firstAttribute="top" secondItem="CuD-nh-q35" secondAttribute="bottom" constant="1" id="Ju4-dX-9QK"/>
+                            <constraint firstItem="Gmd-tG-ahr" firstAttribute="top" secondItem="sF8-hX-Gd2" secondAttribute="bottom" constant="1" id="Uni-d7-tGR"/>
+                            <constraint firstItem="nrF-Yf-eD1" firstAttribute="leading" secondItem="W2E-na-67F" secondAttribute="leading" constant="20" id="Zdq-BY-dgh"/>
+                            <constraint firstItem="TYg-py-QPb" firstAttribute="trailing" secondItem="dDz-Cl-sI6" secondAttribute="trailing" id="b42-fX-jax"/>
+                            <constraint firstItem="CuD-nh-q35" firstAttribute="leading" secondItem="dDz-Cl-sI6" secondAttribute="leading" id="fCi-L8-GPV"/>
+                            <constraint firstAttribute="trailing" secondItem="p01-uP-HBK" secondAttribute="trailing" id="pd5-1C-rJO"/>
+                            <constraint firstItem="nrF-Yf-eD1" firstAttribute="top" secondItem="TYg-py-QPb" secondAttribute="bottom" constant="1" id="qhr-1T-Q0Z"/>
+                            <constraint firstAttribute="trailing" secondItem="nrF-Yf-eD1" secondAttribute="trailing" id="soh-GH-QDZ"/>
+                            <constraint firstItem="TYg-py-QPb" firstAttribute="top" secondItem="Gmd-tG-ahr" secondAttribute="bottom" constant="1" id="xgh-0R-gZr"/>
+                            <constraint firstItem="TYg-py-QPb" firstAttribute="leading" secondItem="dDz-Cl-sI6" secondAttribute="leading" id="zVC-aS-ZUr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Innovation" id="6xl-Nn-cEl"/>
                 </viewController>
@@ -101,6 +192,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Technology" image="technology" id="fYw-i0-sZz"/>
+                    <navigationItem key="navigationItem" id="1gz-lD-0Ry"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wb-LV-1Kw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -133,6 +225,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Automobile" image="automobile" id="DPc-cq-ocC"/>
+                    <navigationItem key="navigationItem" id="fDi-9o-tqJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tft-xf-nAP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -927,6 +1020,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Gaming" image="gaming" id="7Rc-xA-v9d"/>
+                    <navigationItem key="navigationItem" id="uQz-mT-puH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WOc-s1-ugb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
