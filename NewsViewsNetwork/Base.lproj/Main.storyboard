@@ -40,6 +40,22 @@
             </objects>
             <point key="canvasLocation" x="3303" y="-1241"/>
         </scene>
+        <!--Money-->
+        <scene sceneID="Rsh-B6-faR">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="unO-wf-TB9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pf9-Xc-ffV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="k2R-Pc-yli"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Money" image="money" id="VSw-Yn-Sx2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gX5-TR-fOa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="1943"/>
+        </scene>
         <!--Finance-->
         <scene sceneID="UPe-FL-ZQU">
             <objects>
@@ -55,6 +71,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2t-WA-cDI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1486" y="1943"/>
+        </scene>
+        <!--Innovation-->
+        <scene sceneID="E6L-i6-6ee">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="I1u-hV-kAC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W2E-na-67F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dDz-Cl-sI6"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Innovation" image="innovation" id="HSD-w1-tI5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8u-gs-aL6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="876"/>
         </scene>
         <!--Technology-->
         <scene sceneID="NNO-FH-GWy">
@@ -104,6 +136,22 @@
             </objects>
             <point key="canvasLocation" x="2400" y="876"/>
         </scene>
+        <!--Leisure-->
+        <scene sceneID="SD7-fy-XZB">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="cHi-T7-Gpo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qdH-1h-3po">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RJe-W3-bnQ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Leisure" image="leisure" id="mIy-GP-QiQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sqQ-oD-yfZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="2989"/>
+        </scene>
         <!--Sports-->
         <scene sceneID="se6-Nu-FPO">
             <objects>
@@ -136,6 +184,22 @@
             </objects>
             <point key="canvasLocation" x="2399" y="2989"/>
         </scene>
+        <!--News-->
+        <scene sceneID="LS6-7Q-rmu">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="BYN-FF-Egc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CAD-gu-Ttk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nyb-7R-rPH"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="news" id="aR9-3Z-C3S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yf5-O4-yNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="-1242"/>
+        </scene>
         <!--Home-->
         <scene sceneID="Kjv-Gb-Mu9">
             <objects>
@@ -161,10 +225,33 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="BYN-FF-Egc" kind="relationship" relationship="viewControllers" id="9o5-w4-Tr0"/>
+                        <segue destination="E1Q-oY-MX4" kind="relationship" relationship="viewControllers" id="usS-5B-AUO"/>
+                        <segue destination="I1u-hV-kAC" kind="relationship" relationship="viewControllers" id="xtN-7y-Met"/>
+                        <segue destination="unO-wf-TB9" kind="relationship" relationship="viewControllers" id="nhS-9S-v0d"/>
+                        <segue destination="cHi-T7-Gpo" kind="relationship" relationship="viewControllers" id="74I-1V-xPc"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pvA-aJ-wfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-614" y="877"/>
+        </scene>
+        <!--Wellness-->
+        <scene sceneID="8ul-1z-nXw">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="E1Q-oY-MX4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SsJ-ms-hQf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yCr-2w-V9L"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Wellness" image="wellness" id="YOk-H9-JL1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FI2-yl-V8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="-214"/>
         </scene>
         <!--Health-->
         <scene sceneID="kYc-79-wvs">
@@ -469,9 +556,12 @@
         <image name="home" width="24" height="24"/>
         <image name="hot" width="24" height="24"/>
         <image name="india" width="24" height="24"/>
+        <image name="innovation" width="24" height="24"/>
         <image name="jobs" width="24" height="24"/>
+        <image name="leisure" width="24" height="24"/>
         <image name="lifestyle" width="24" height="24"/>
         <image name="miscellany" width="24" height="24"/>
+        <image name="money" width="24" height="24"/>
         <image name="moodfresh" width="24" height="24"/>
         <image name="news" width="24" height="24"/>
         <image name="photo-gallery" width="24" height="24"/>
@@ -482,6 +572,7 @@
         <image name="ten" width="24" height="24"/>
         <image name="travel" width="24" height="24"/>
         <image name="videos" width="24" height="24"/>
+        <image name="wellness" width="24" height="24"/>
         <image name="world" width="24" height="24"/>
     </resources>
 </document>

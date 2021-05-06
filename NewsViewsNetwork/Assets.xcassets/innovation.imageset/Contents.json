@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "photo-gallery.png",
+      "filename" : "innovation.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "photo-gallery@2x.png",
+      "filename" : "innovation@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "photo-gallery@3x.png",
+      "filename" : "innovation@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
